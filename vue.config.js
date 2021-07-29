@@ -15,9 +15,9 @@ module.exports = {
     }
   },
   devServer: {
-    public: 'localhost:3330',
+    public: 'localhost:8800',
     disableHostCheck: true,
     https: false,
-    port: 3330
+    port: 8800
   }
 }

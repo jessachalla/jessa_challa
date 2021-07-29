@@ -1,0 +1,17 @@
+.content-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+  & > .content-body {
+    flex: 1 1 auto;
+    height: 0px;
+    overflow: auto;
+  }
+}
+
+.loading-container {
+  @extend .content-container;
+  align-items: center;
+  justify-content: center;
+}

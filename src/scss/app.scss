@@ -1,0 +1,16 @@
+@import "./variables";
+@import "./typography";
+@import "./layout.scss";
+
+* {
+  box-sizing: border-box;
+  transition: none !important;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+}

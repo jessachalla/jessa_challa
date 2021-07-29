@@ -1,29 +1,56 @@
 {
   "name": "jessa_challa",
-  "version": "1.0.0",
+  "version": "0.1.0",
+  "private": true,
   "description": "Jessa Challa's personal website",
+  "author": "Jessa Challa",
+  "license": "UNLICENSED",
+  "contributors": [
+    "Jessa Challa"
+  ],
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "build:staging": "vue-cli-service build --mode staging",
+    "test:unit": "vue-cli-service test:unit --coverage=false",
+    "test:unit:cover": "vue-cli-service test:unit --verbose --coverage=true",
+    "test:unit:view": "vue-cli-service test:unit --verbose --coverage=true --config=jest.config.html-cover.js && open-cli ./coverage/index.html",
+    "lint": "vue-cli-service lint",
+    "fix": "vue-cli-service lint --fix"
   },
   "dependencies": {
-    "core-js": "^3.6.5",
-    "vue": "^3.0.0",
-    "vuetify": "^2.5.7"
+    "@mdi/font": "^5.9.55",
+    "axi": "^1.0.0",
+    "axios": "^0.21.1",
+    "core-js": "^3.14.0",
+    "date-fns": "^2.22.1",
+    "material-design-icons-iconfont": "^6.1.0",
+    "material-icons": "^0.3.1",
+    "update": "^0.7.4",
+    "vue": "^2.6.14",
+    "vue-async-computed": "^3.8.2",
+    "vue-cookies": "^1.7.0",
+    "vue-nonreactive": "^0.1.0",
+    "vue-router": "^3.5.1",
+    "vuetify": "^2.5.4",
+    "vuex": "^3.6.2"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "~4.5.0",
-    "@vue/cli-plugin-eslint": "~4.5.0",
-    "@vue/cli-service": "~4.5.0",
-    "@vue/compiler-sfc": "^3.0.0",
+    "@vue/cli-plugin-babel": "^4.5.13",
+    "@vue/cli-plugin-eslint": "^4.5.13",
+    "@vue/cli-plugin-router": "^4.5.13",
+    "@vue/cli-plugin-vuex": "^4.5.13",
+    "@vue/cli-service": "^4.5.13",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "@vue/test-utils": "1.0.3",
     "babel-eslint": "^10.1.0",
-    "deepmerge": "^4.2.2",
-    "eslint": "^6.7.2",
-    "eslint-plugin-vue": "^7.0.0",
-    "sass": "^1.32.13",
-    "sass-loader": "^12.1.0",
-    "vue-cli-plugin-vuetify": "~2.4.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.2.3",
+    "open-cli": "^6.0.1",
+    "prettier-eslint": "^9.0.2",
+    "sass": "~1.32",
+    "sass-loader": "^8.0.2",
+    "vue-cli-plugin-vuetify": "^2.0.9",
     "vue-template-compiler": "^2.6.11",
     "vuetify-loader": "^1.7.2"
   },
@@ -50,8 +77,6 @@
     "type": "git",
     "url": "git+https://github.com/jessachalla/jessa_challa.git"
   },
-  "author": "Jessa Challa",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/jessachalla/jessa_challa/issues"
   },
