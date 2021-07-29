@@ -27,6 +27,7 @@
       <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a></li>
       <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
     </ul>
+    <v-card><v-card-title>Cafe Badilico</v-card-title><v-card-subtitle>this is a card</v-card-subtitle></v-card>
   </div>
 </template>
 
