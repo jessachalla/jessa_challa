@@ -18,9 +18,18 @@ html {
 .nav-bar {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 .nav-links {
   text-decoration: none;
+}
+
+.pool {
+  background: #009FFD;
+  width: 70vw;
+  height: 60vh;
+  cursor: grab;
+  padding: 24px;
+  border-radius: 10px;
 }
