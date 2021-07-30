@@ -1,46 +1,42 @@
 <template>
-    <v-app-bar app>
-      <v-menu left offset-y>
-      <template v-slot:activator="{ on, attrs }">
-        <v-btn icon v-bind="attrs" v-on="on">
-          <v-icon>mdi-menu</v-icon>
+  <div>
+    <v-card-title class="py-1 mx-6 d-flex justify-space-between">
+      <h1 class="font-weight-bold">
+        <router-link :to="'/'" name="home" class="nav-links page-title">jessa challa</router-link>
+      </h1>
+      <div>
+        <v-btn v-for="icon in icons" :key="icon" icon>
+          <v-icon size="24px" color="orange">
+            {{ icon }}
+          </v-icon>
         </v-btn>
-      </template>
+      </div>
+    </v-card-title>
 
-      <v-list>
-        <v-list-item v-for="(item, i) in items" :key="i">
-          <v-list-item-title>{{ item.title }}</v-list-item-title>
-        </v-list-item>
-      </v-list>
-    </v-menu>
-
-      <v-toolbar-title>Title</v-toolbar-title>
-
-      <v-spacer></v-spacer>
-
-      <v-btn icon>
-        <v-icon>mdi-magnify</v-icon>
-      </v-btn>
-
-      <v-btn icon>
-        <v-icon>mdi-heart</v-icon>
-      </v-btn>
-
-      <v-btn icon>
-        <v-icon>mdi-dots-vertical</v-icon>
-      </v-btn>
-    </v-app-bar>
+    <v-list class="nav-bar">
+      <router-link :to="'/introduction'" name="introduction" class="nav-links">
+        <v-list-item> Introduction </v-list-item>
+      </router-link>
+      <router-link :to="'/experience'" name="experience" class="nav-links">
+        <v-list-item> Experience </v-list-item>
+      </router-link>
+      <router-link :to="'/gallery'" name="gallery" class="nav-links">
+        <v-list-item> Gallery </v-list-item>
+      </router-link>
+      <router-link :to="'/news'" name="news" class="nav-links">
+        <v-list-item> In the News </v-list-item>
+      </router-link>
+      <router-link :to="'/contact'" name="contact" class="nav-links">
+        <v-list-item> Contact </v-list-item>
+      </router-link>
+    </v-list>
+  </div>
 </template>
 
 <script>
 export default {
   data: () => ({
-    items: [
-      { title: 'About' },
-      { title: 'Do Something' },
-      { title: 'Menu Option' },
-      { title: 'Yay!' }
-    ]
+    icons: ['mdi-facebook', 'mdi-twitter', 'mdi-linkedin', 'mdi-instagram']
   })
 }
 </script>
