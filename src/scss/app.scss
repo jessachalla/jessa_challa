@@ -26,10 +26,24 @@ html {
 }
 
 .pool {
-  background: #009FFD;
-  width: 70vw;
-  height: 60vh;
+  border-radius: 5px;
+  background: url(../images/pool_water.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 70%;
+  height: 70%;
   cursor: grab;
-  padding: 24px;
-  border-radius: 10px;
+  margin: 10px;
+}
+
+.jessa {
+  background: url(../images/jessa_cutout.jpg);
+  background-repeat: no-repeat;
+  background-size: 28% 100%;
+  width: 100%;
+  height: 75vh;
+  opacity: 0.9;
+  margin-bottom: 0px;
+  align-self: flex-end;
+  background-position: right;
 }

@@ -29,7 +29,7 @@
       </v-list>
       <div>
         <v-btn v-for="icon in icons" :key="icon" icon>
-          <v-icon size="24px" color="orange">
+          <v-icon size="24px" color="primary">
             {{ icon }}
           </v-icon>
         </v-btn>

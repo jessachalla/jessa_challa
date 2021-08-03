@@ -2,10 +2,10 @@
   <div class="content-container">
     <v-card
       flat
-      class="content-body d-flex flex-column align-center justify-center"
+      class="content-body d-flex flex-column align-center mt-4"
     >
       <h1>Welcome!</h1>
-      I am glad you are here! Take time to splash around...
+      <span>I'm so glad you're here!</span>
       <div
         @click="splash"
         class="
@@ -16,7 +16,10 @@
           align-center align-self-center
         "
       >
-        <div class="affirmation">{{ affirmation }}</div>
+        <div class="affirmation">
+          <p v-if="!affirmation">Take a moment to splash around...</p>
+          <p>{{ affirmation }}</p>
+        </div>
       </div>
     </v-card>
   </div>
@@ -42,7 +45,13 @@ export default {
       'Save your energy for things that matter to you.',
       'You are becoming closer to your true self every day.',
       'Take time for peace.',
-      'Take time for fun.'
+      'Take time for fun.',
+      'Release self-criticism and choose self-love.',
+      'You are brave.',
+      'It is enough to do your best.',
+      'You are powerful.',
+      'You are amazing',
+      'Little by little, you are becoming the person you want to be.'
     ]
   }),
   methods: {
