@@ -3,7 +3,7 @@
     <div>
       <v-card-title class="py-1 mx-6 d-flex justify-space-between align-center">
         <h1 class="font-weight-bold">
-          <router-link :to="'/'" name="home" class="nav-links page-title"
+          <router-link :to="'/'" name="home" class="nav-links page-title home-active"
             >jessa challa</router-link
           >
         </h1>
@@ -65,7 +65,10 @@ export default {
 
 <style scoped lang="scss">
 .active {
-  color: #4da1a8;
   border-bottom: 2px solid;
+}
+
+.home-active {
+  border-bottom: 2px solid white;
 }
 </style>
