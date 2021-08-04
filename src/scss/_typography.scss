@@ -7,39 +7,31 @@
   letter-spacing: normal;
 }
 
-.page-title {
-  @extend .default-type;
-  font-size: 60px;
-}
-
-.nav-text {
-  font-size: 16px;
-}
-
 .affirmation {
   @extend .default-type;
-  font-size: 40px;
+  font-size: 3vw;
   color: white;
-  text-shadow: 0px 0px 8px #013236;
+  text-shadow: 0px 0px 8px #00282c;
   text-align: center;
 }
 
 .intro-p {
-    font-size: 15px;
+    font-size: 1vw;
     width: 100%;
-    margin-bottom: 18px !important;
-    line-height: 24px;
+    margin-bottom: 2vh !important;
+    line-height: 3.1vh;
 }
 
 .flair {
   @extend .default-type;
-  font-size: 24px;
+  font-size: 1.8vw;
   color: #92140c;
-  line-height: 18px;
+  line-height: 3vh;
 }
 
 .signature {
   @extend.flair;
   text-align: right;
-  margin-right: 100px;
+  margin-right: 8vw;
+  font-size: 3vw;
 }

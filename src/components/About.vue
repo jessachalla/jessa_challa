@@ -48,8 +48,7 @@
         community project to create community resources.
       </p>
       <p class="signature">
-        <span style="font-size: 40px; color: #92140c">&hearts;</span
-        ><span style="font-size: 40px">Jessa</span>
+        <span style="color: #92140c">&hearts;</span><span>Jessa</span>
       </p>
     </div>
   </v-container>

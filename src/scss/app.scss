@@ -43,24 +43,34 @@ html {
 .jessa {
   height: 100%;
   width: 25%;
-  float:left;
+  float: left;
   margin-right: 24px;
 }
 
-@media only screen and (max-width: 1264px) {
-  .container {
-    max-width: 1200px !important;
-    padding: 24px !important;
-  }
-  .about {
-    .jessa {
-      height: 75vh !important;
-      width: 22vw;
-    }
-  }
+.page-title {
+  @extend .default-type;
+  font-size: 4vw;
+}
+
+.nav {
+  color: gray;
+  text-transform: uppercase;
+  font-size: 0.9vw;
 }
 
 @media only screen and (max-width: 1052px) {
+  .page-title {
+    font-size: 32px;
+  }
+
+  .nav {
+    font-size: 12px;
+  }
+
+  .affirmation {
+    font-size: 32px;
+  }
+
   .container {
     max-width: 1200px !important;
     padding: 24px !important;
@@ -70,6 +80,15 @@ html {
       height: 55vh !important;
       width: 200px;
     }
+    .intro-p {
+      font-size: 14px;
+    }
+    .flair {
+      font-size: 18px;
+    }
+    .signature {
+      font-size: 28px;
+    }
   }
 }
 
@@ -78,4 +97,3 @@ html {
     overflow: auto;
   }
 }
-

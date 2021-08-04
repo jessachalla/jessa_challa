@@ -71,10 +71,4 @@ export default {
 .home-active {
   border-bottom: 2px solid white;
 }
-
-.nav {
-  color: gray;
-  text-transform: uppercase;
-  font-size: 12px;
-}
 </style>
