@@ -42,7 +42,7 @@
           :class="item.path === $route.path ? 'active' : ''"
           class="nav-links"
         >
-          <span class="px-4 nav" style="height:20px !important;">{{ item.name }}</span>
+          <span class="px-4 nav">{{ item.name }}</span>
         </router-link>
       </v-list>
     </div>

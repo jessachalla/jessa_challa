@@ -1,5 +1,4 @@
 <template>
-  <div>
     <v-container>
       <div class="jessa d-flex flex-column">
         <p class="intro-p mt-6">
@@ -41,7 +40,6 @@
         </p>
       </div>
     </v-container>
-  </div>
 </template>
 
 <script>
