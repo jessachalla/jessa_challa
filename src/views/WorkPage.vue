@@ -1,14 +1,14 @@
 <template>
   <div class="content-container">
-    <experience></experience>
+    <work></work>
   </div>
 </template>
 <script>
-import Experience from '@/components/Experience'
+import Work from '@/components/Work'
 
 export default {
   components: {
-    Experience
+    Work
   }
 }
 </script>

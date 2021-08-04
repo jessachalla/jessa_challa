@@ -1,24 +1,16 @@
 <template>
   <v-container class="about">
-    <div class="about-ps">
+    <div class="about-ps mt-10">
       <v-img
         lazy-src="images/jessa_cutout.jpg"
         src="images/jessa_cutout.jpg"
         class="jessa"
       ></v-img>
-      <p class="intro-p mt-4">
+      <p class="intro-p pt-6">
         <span class="flair">Hey there! </span> I'm Jessa Challa. I'm a lifelong
         Grand Rapids resident and equity advocate. I'm Co-CEO and a Software
         Engineer at a minority and women-owned software company,
         <span class="flair">Mallowfields, LLC</span>.
-      </p>
-      <p class="intro-p">
-        I graduated from <span class="flair">Aquinas College</span> with a
-        degree in Geography. My focus on geography and Geographic Information
-        Systems (GIS) opened doors for impact in local government and the
-        nonprofit sector including work with the Grand Valley Metro Council,
-        Grand Rapids Public Museum, and the City of Grand Rapids Engineering
-        Department and Parking Department.
       </p>
       <p class="intro-p">
         I graduated from <span class="flair">Aquinas College</span> with a

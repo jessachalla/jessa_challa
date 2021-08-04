@@ -3,7 +3,7 @@ import VueRouter from 'vue-router'
 
 import HomePage from '@/views/HomePage.vue'
 import AboutPage from '@/views/AboutPage.vue'
-import ExperiencePage from '@/views/ExperiencePage.vue'
+import WorkPage from '@/views/WorkPage.vue'
 import CommunityPage from '@/views/CommunityPage.vue'
 // import GalleryPage from '@/views/GalleryPage.vue'
 // import NewsPage from '@/views/NewsPage.vue'
@@ -26,9 +26,9 @@ export default new VueRouter({
       name: 'about',
       component: AboutPage
     }, {
-      path: '/experience',
-      name: 'experience',
-      component: ExperiencePage
+      path: '/work',
+      name: 'work',
+      component: WorkPage
       // }, {
       //   path: '/gallery',
       //   name: 'gallery',

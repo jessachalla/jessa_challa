@@ -3,7 +3,10 @@
     <div>
       <v-card-title class="py-1 mx-6 d-flex justify-space-between align-center">
         <h1 class="font-weight-bold">
-          <router-link :to="'/'" name="home" class="nav-links page-title home-active"
+          <router-link
+            :to="'/'"
+            name="home"
+            class="nav-links page-title home-active"
             >jessa challa</router-link
           >
         </h1>
@@ -35,6 +38,7 @@
     <div>
       <v-list class="nav-bar nav-text">
         <router-link
+          :elevation="hover ? 16 : 2"
           v-for="(item, i) in menu"
           :key="i"
           :to="item.path"
@@ -54,7 +58,7 @@ export default {
   data: () => ({
     menu: [
       { name: 'About', path: '/about' },
-      { name: 'Experience', path: '/experience' },
+      { name: 'Work', path: '/work' },
       { name: 'Community', path: '/community' },
       // { name: 'In the News', path: '/news' },
       { name: 'Contact', path: '/contact' }
@@ -66,6 +70,9 @@ export default {
 <style scoped lang="scss">
 .active {
   border-bottom: 2px solid;
+}
+.nav:hover {
+  color: #4da1a8;
 }
 
 .home-active {

@@ -1,7 +1,7 @@
 <template>
-  <v-container>
-    <v-col v-for="(item, i) in items" :key="i" cols="12">
-      <v-card :color="item.color" dark>
+  <v-container class="resources">
+    <div v-for="(item, i) in items" :key="i">
+      <v-card :color="item.color" dark max-width="400px" min-width="200px" class="my-4">
         <div class="d-flex flex-no-wrap justify-space-between">
           <div>
             <v-card-title v-text="item.title" style="word-break: normal"></v-card-title>
@@ -22,7 +22,7 @@
           </v-avatar>
         </div>
       </v-card>
-    </v-col>
+    </div>
   </v-container>
 </template>
 
@@ -47,8 +47,15 @@ export default {
       {
         color: 'primary',
         src: 'images/walker_parks_project.jpg',
-        title: 'City of Walker Parks',
+        title: 'City of Walker Parks Map',
         href: 'https://arcg.is/0KbeG1',
+        artist: 'Created by Jessa Challa'
+      },
+      {
+        color: 'primary',
+        src: 'images/veterans_services_map.jpg',
+        title: 'West Michigan Veterans Coalition Map',
+        href: 'https://arcg.is/1ieGLn',
         artist: 'Created by Jessa Challa'
       }
     ]

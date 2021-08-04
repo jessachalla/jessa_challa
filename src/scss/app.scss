@@ -36,15 +36,24 @@ html {
   margin: 10px;
 }
 
+.resources {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+}
+
 .about {
   overflow: hidden;
 }
 
 .jessa {
-  height: 100%;
   width: 25%;
   float: left;
   margin-right: 24px;
+  margin-top: -30px;
 }
 
 .page-title {
