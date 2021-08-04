@@ -1,34 +1,15 @@
 <template>
-  <v-container
-    ><iframe
-      width="100%"
-      height="90%"
-      src="https://mallowfields.maps.arcgis.com/apps/MapSeries/index.html?appid=57710edc4b6d41fdb69ddfd4c53bc6e0"
-      frameborder="0"
-      scrolling="no"
-    ></iframe>
+  <v-container>
     <v-col v-for="(item, i) in items" :key="i" cols="12">
       <v-card :color="item.color" dark>
         <div class="d-flex flex-no-wrap justify-space-between">
           <div>
-            <v-card-title class="text-h5" v-text="item.title"></v-card-title>
+            <v-card-title v-text="item.title" style="word-break: normal"></v-card-title>
 
             <v-card-subtitle v-text="item.artist"></v-card-subtitle>
 
             <v-card-actions>
-              <v-btn
-                v-if="item.artist === 'Ellie Goulding'"
-                class="ml-2 mt-3"
-                fab
-                icon
-                height="40px"
-                right
-                width="40px"
-              >
-                <v-icon>mdi-play</v-icon>
-              </v-btn>
-
-              <v-btn v-else class="ml-2 mt-5" outlined rounded small>
+              <v-btn :href="item.href" target="_blank" class="ml-2 mt-5" outlined rounded>
                 Open Resource
               </v-btn>
             </v-card-actions>
@@ -48,16 +29,25 @@ export default {
   data: () => ({
     items: [
       {
-        color: '#1F7087',
-        src: 'https://cdn.vuetifyjs.com/images/cards/foster.jpg',
-        title: 'Supermodel',
-        artist: 'Foster the People'
+        color: 'primary',
+        src: 'images/map_project.jpg',
+        title: 'Minority-Owned Businesses in GR Map',
+        href: 'https://arcg.is/1viKzz0',
+        artist: 'Created by Jessa Challa'
       },
       {
-        color: '#952175',
-        src: 'https://cdn.vuetifyjs.com/images/cards/halcyon.png',
-        title: 'Halcyon Days',
-        artist: 'Ellie Goulding'
+        color: 'primary',
+        src: 'images/kids_count.jpg',
+        title: 'MLPP 2021 Kids Count Data Book',
+        href: 'https://mlpp.org/kids-count/2021databook/',
+        artist: 'Illustrations by Jessa Challa'
+      },
+      {
+        color: 'primary',
+        src: 'images/jessa_cutout.jpg',
+        title: 'MLPP 2021 Kids Count Data Book',
+        href: 'https://mlpp.org/kids-count/2021databook/',
+        artist: 'Illustrations by Jessa Challa'
       }
     ]
   })
