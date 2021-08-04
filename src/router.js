@@ -2,9 +2,10 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 
 import HomePage from '@/views/HomePage.vue'
-import IntroductionPage from '@/views/IntroductionPage.vue'
+import AboutPage from '@/views/AboutPage.vue'
 import ExperiencePage from '@/views/ExperiencePage.vue'
-import GalleryPage from '@/views/GalleryPage.vue'
+import CommunityPage from '@/views/CommunityPage.vue'
+// import GalleryPage from '@/views/GalleryPage.vue'
 import NewsPage from '@/views/NewsPage.vue'
 import ContactPage from '@/views/ContactPage.vue'
 
@@ -20,17 +21,21 @@ export default new VueRouter({
       component: HomePage
     },
     {
-      path: '/introduction',
-      name: 'introduction',
-      component: IntroductionPage
+      path: '/about',
+      name: 'about',
+      component: AboutPage
     }, {
       path: '/experience',
       name: 'experience',
       component: ExperiencePage
+    // }, {
+    //   path: '/gallery',
+    //   name: 'gallery',
+    //   component: GalleryPage
     }, {
-      path: '/gallery',
-      name: 'gallery',
-      component: GalleryPage
+      path: '/community',
+      name: 'Community',
+      component: CommunityPage
     }, {
       path: '/news',
       name: 'news',

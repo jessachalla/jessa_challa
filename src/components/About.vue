@@ -4,8 +4,8 @@
       <p class="intro-p mt-6">
         <span class="flair">Hey there! </span> I'm Jessa Challa. I'm a lifelong
         Grand Rapids resident and equity advocate. I'm Co-CEO and a Software
-        Engineer at a minority and women-owned software company, Mallowfields
-        LLC.
+        Engineer at a minority and women-owned software company,
+        <span class="flair">Mallowfields, LLC</span>.
       </p>
       <p class="intro-p">
         I graduated from <span class="flair">Aquinas College</span> with a
@@ -36,7 +36,7 @@
       </p>
       <p class="intro-p flair ml-auto">
         <span style="font-size: 40px; color: #92140c">&hearts;</span
-        ><span style="font-size: 40px; margin-right: 150px;">Jessa</span>
+        ><span style="font-size: 40px; margin-right: 150px">Jessa</span>
       </p>
     </div>
   </v-container>

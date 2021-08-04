@@ -8,18 +8,21 @@
       </h1>
       <v-list class="nav-bar nav-text">
         <router-link
-          :to="'/introduction'"
-          name="introduction"
+          :to="'/about'"
+          name="about"
           class="nav-links"
         >
-          <v-list-item class="px-8">Introduction</v-list-item>
+          <v-list-item class="px-8">About</v-list-item>
         </router-link>
         <router-link :to="'/experience'" name="experience" class="nav-links">
           <v-list-item class="px-8"> Experience </v-list-item>
         </router-link>
-        <router-link :to="'/gallery'" name="gallery" class="nav-links">
-          <v-list-item class="px-8">Gallery</v-list-item>
+        <router-link :to="'/community'" name="community" class="nav-links">
+          <v-list-item class="px-8">Community</v-list-item>
         </router-link>
+        <!-- <router-link :to="'/gallery'" name="gallery" class="nav-links">
+          <v-list-item class="px-8">Gallery</v-list-item>
+        </router-link> -->
         <router-link :to="'/news'" name="news" class="nav-links">
           <v-list-item class="px-8">In the News</v-list-item>
         </router-link>

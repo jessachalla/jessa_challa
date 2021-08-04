@@ -1,14 +1,14 @@
 <template>
   <div class="content-container">
-    <introduction></introduction>
+    <community></community>
   </div>
 </template>
 <script>
-import Introduction from '@/components/Introduction'
+import Community from '@/components/Community'
 
 export default {
   components: {
-    Introduction
+    Community
   }
 }
 </script>

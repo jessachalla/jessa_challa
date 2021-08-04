@@ -1,10 +1,23 @@
 <template>
   <v-container>
-    <iframe
+    <a href="https://hyypeonline.com/2017/09/26/jessachalla/" target="_blank">
+      <img
+        src="https://hyypeonline.com/2017/09/26/jessachalla/"
+        height="50"
+        width="50"
+    /></a>
+    <a href="https://www.wgvunews.org/post/web-directory-launches-help-kent-county-residents-find-food-distribution-sites" target="_blank">
+      <img
+        src="https://www.wgvunews.org/post/web-directory-launches-help-kent-county-residents-find-food-distribution-sites"
+        height="50"
+        width="50"
+    /></a>
+
+    <!-- <iframe
       height="400px"
       width="800px"
       src="https://hyypeonline.com/2017/09/26/jessachalla/"
-    ></iframe>
+    ></iframe> -->
     <iframe
       height="400px"
       width="800px"

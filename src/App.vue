@@ -6,9 +6,7 @@
         <router-view></router-view>
       </v-main>
       <v-footer class="d-flex justify-center">
-        <div>
-          {{ new Date().getFullYear() }} — <strong>jessa challa</strong>
-        </div>
+        <div>{{ new Date().getFullYear() }} — jessa challa</div>
       </v-footer>
     </div>
     <loading v-else class="loading-container"></loading>
