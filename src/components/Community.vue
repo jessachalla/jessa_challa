@@ -16,7 +16,9 @@
           </div>
 
           <v-avatar class="ma-3" size="125" tile>
-            <v-img :src="item.src"></v-img>
+            <v-btn href="item.href">
+            <v-img :src="item.src" width="140px"></v-img>
+            </v-btn>
           </v-avatar>
         </div>
       </v-card>
@@ -44,10 +46,10 @@ export default {
       },
       {
         color: 'primary',
-        src: 'images/jessa_cutout.jpg',
-        title: 'MLPP 2021 Kids Count Data Book',
-        href: 'https://mlpp.org/kids-count/2021databook/',
-        artist: 'Illustrations by Jessa Challa'
+        src: 'images/walker_parks_project.jpg',
+        title: 'City of Walker Parks',
+        href: 'https://arcg.is/0KbeG1',
+        artist: 'Created by Jessa Challa'
       }
     ]
   })
