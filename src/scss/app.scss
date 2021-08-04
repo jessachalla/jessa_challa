@@ -36,24 +36,46 @@ html {
   margin: 10px;
 }
 
-.jessa {
-  background: url(../images/jessa_cutout.jpg);
-  background-repeat: no-repeat;
-  background-size: 25% 100%;
-  width: 100%;
-  height: 70vh;
-  opacity: 0.9;
-  margin-bottom: 0px;
-  align-self: flex-end;
-  background-position: right;
+.about {
+  overflow: hidden;
 }
 
-@media only screen and (max-width: 1265px) {
-  .jessa {
-    background: none;
-    background-size: 100%;
+.jessa {
+  height: 100%;
+  width: 25%;
+  float:left;
+  margin-right: 24px;
+}
+
+@media only screen and (max-width: 1264px) {
+  .container {
+    max-width: 1200px !important;
+    padding: 24px !important;
   }
-  .intro-p {
-    margin-right: 0;
+  .about {
+    .jessa {
+      height: 75vh !important;
+      width: 22vw;
+    }
   }
 }
+
+@media only screen and (max-width: 1052px) {
+  .container {
+    max-width: 1200px !important;
+    padding: 24px !important;
+  }
+  .about {
+    .jessa {
+      height: 55vh !important;
+      width: 200px;
+    }
+  }
+}
+
+@media only screen and (max-width: 985px) {
+  .about {
+    overflow: auto;
+  }
+}
+

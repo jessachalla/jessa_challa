@@ -25,11 +25,21 @@
 }
 
 .intro-p {
-    margin-right: 350px;
+    font-size: 15px;
+    width: 100%;
+    margin-bottom: 18px !important;
+    line-height: 24px;
 }
 
 .flair {
   @extend .default-type;
   font-size: 24px;
   color: #92140c;
+  line-height: 18px;
+}
+
+.signature {
+  @extend.flair;
+  text-align: right;
+  margin-right: 100px;
 }
