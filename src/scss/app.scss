@@ -47,3 +47,13 @@ html {
   align-self: flex-end;
   background-position: right;
 }
+
+@media only screen and (max-width: 1265px) {
+  .jessa {
+    background: none;
+    background-size: 100%;
+  }
+  .intro-p {
+    margin-right: 0;
+  }
+}

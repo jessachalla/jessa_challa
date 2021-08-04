@@ -5,9 +5,6 @@
       <div class="content-container">
         <router-view></router-view>
       </div>
-      <v-footer class="d-flex justify-center">
-        <div>{{ new Date().getFullYear() }} — jessa challa</div>
-      </v-footer>
     </div>
     <!-- <loading v-else class="loading-container"></loading> -->
   </v-app>

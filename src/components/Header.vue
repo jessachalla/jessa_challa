@@ -42,7 +42,7 @@
           :class="item.path === $route.path ? 'active' : ''"
           class="nav-links"
         >
-          <v-list-item class="px-8">{{ item.name }}</v-list-item>
+          <span class="px-4 nav" style="height:20px !important;">{{ item.name }}</span>
         </router-link>
       </v-list>
     </div>
@@ -70,5 +70,11 @@ export default {
 
 .home-active {
   border-bottom: 2px solid white;
+}
+
+.nav {
+  color: gray;
+  text-transform: uppercase;
+  font-size: 12px;
 }
 </style>
