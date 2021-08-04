@@ -1,5 +1,5 @@
 <template>
-  <v-container class="content-body"
+  <v-container
     ><iframe
       width="100%"
       height="90%"
