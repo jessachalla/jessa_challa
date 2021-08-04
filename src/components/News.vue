@@ -1,5 +1,5 @@
 <template>
-  <v-container>
+  <!-- <div>
     <a href="https://hyypeonline.com/2017/09/26/jessachalla/" target="_blank">
       <img
         src="https://hyypeonline.com/2017/09/26/jessachalla/"
@@ -13,11 +13,11 @@
         width="50"
     /></a>
 
-    <!-- <iframe
+    <iframe
       height="400px"
       width="800px"
       src="https://hyypeonline.com/2017/09/26/jessachalla/"
-    ></iframe> -->
+    ></iframe>
     <iframe
       height="400px"
       width="800px"
@@ -63,5 +63,5 @@
       width="800px"
       src="https://www.youtube.com/watch?v=ENcT8qFkf9E"
     ></iframe>
-  </v-container>
+  </div> -->
 </template>
