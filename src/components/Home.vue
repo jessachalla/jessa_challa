@@ -1,5 +1,5 @@
 <template>
-  <div class="content-container">
+  <div class="content-container content-body">
     <v-card
       flat
       class="content-body d-flex flex-column align-center mt-4"
@@ -22,7 +22,7 @@
         </div>
       </div>
     </v-card>
-    <my-footer></my-footer>
+    <my-footer class="home-footer"></my-footer>
   </div>
 </template>
 
@@ -69,3 +69,11 @@ export default {
   }
 }
 </script>
+
+<style lang="scss">
+.home-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+</style>

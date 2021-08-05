@@ -29,7 +29,7 @@
 
         <div class="contact-info">
           <p class="contact-title">
-            AIGA WM - Director of Community & Connection
+            AIGA WM - Dir. of Community & Connection
           </p>
           <p>
             <a
@@ -60,7 +60,7 @@
         width="200px"
       ></v-img>
     </v-container>
-    <my-footer></my-footer>
+    <my-footer class="contact-footer"></my-footer>
   </div>
 </template>
 
@@ -85,6 +85,12 @@ export default {
   }
 }
 
+.contact-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
 @media only screen and (max-width: 800px) {
   .contact-page {
     margin-top: -10px;
@@ -92,5 +98,12 @@ export default {
   .contact-info {
     margin-top: 32px;
   }
+}
+
+@media only screen and (max-width: 698px) {
+.contact-footer {
+  position: static;
+  bottom: 0;
+}
 }
 </style>

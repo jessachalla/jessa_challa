@@ -40,7 +40,7 @@
         </v-card>
       </div>
     </v-container>
-    <my-footer></my-footer>
+    <my-footer class="community-footer"></my-footer>
   </div>
 </template>
 
@@ -85,3 +85,18 @@ export default {
   })
 }
 </script>
+
+<style lang="scss">
+.community-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+@media only screen and (max-width: 897px) {
+  .community-footer {
+    position: static;
+    bottom: 0;
+  }
+}
+</style>

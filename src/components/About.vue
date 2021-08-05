@@ -45,7 +45,7 @@
         </p>
       </div>
     </v-container>
-    <my-footer></my-footer>
+    <my-footer class="about-footer"></my-footer>
   </div>
 </template>
 
@@ -58,3 +58,18 @@ export default {
   }
 }
 </script>
+
+<style lang="scss">
+.about-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+@media only screen and (max-width: 803px) {
+  .about-footer {
+    position: static;
+    bottom: 0;
+  }
+}
+</style>

@@ -49,13 +49,19 @@
 
         <div class="work-list">
           <h4 class="work-title">Artwork</h4>
-          <p class="work-info">something</p>
+          <p class="work-info">
+            I am an artist by nature. I paint with acrylics and create digital
+            illustrations.
+          </p>
         </div>
         <v-divider></v-divider>
 
         <div class="work-list">
           <h4 class="work-title">Speaking</h4>
-          <p class="work-info">something</p>
+          <p class="work-info">
+            I love to share what I know. I am open to speaking on panels
+            discussing technology, art, and community.
+          </p>
         </div>
         <v-divider></v-divider>
       </div>
