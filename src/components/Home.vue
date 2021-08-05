@@ -22,11 +22,17 @@
         </div>
       </div>
     </v-card>
+    <my-footer></my-footer>
   </div>
 </template>
 
 <script>
+import MyFooter from '@/components/Footer'
+
 export default {
+  components: {
+    MyFooter
+  },
   data: () => ({
     affirmation: '',
     affirmations: [

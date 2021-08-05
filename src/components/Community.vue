@@ -1,33 +1,56 @@
 <template>
-  <v-container class="resources">
-    <div v-for="(item, i) in items" :key="i">
-      <v-card :color="item.color" dark max-width="400px" min-width="200px" class="my-4">
-        <div class="d-flex flex-no-wrap justify-space-between">
-          <div>
-            <v-card-title v-text="item.title" style="word-break: normal"></v-card-title>
+  <div>
+    <v-container class="resources">
+      <div v-for="(item, i) in items" :key="i">
+        <v-card
+          :color="item.color"
+          dark
+          max-width="400px"
+          min-width="200px"
+          class="my-4"
+        >
+          <div class="d-flex flex-no-wrap justify-space-between">
+            <div>
+              <v-card-title
+                v-text="item.title"
+                style="word-break: normal"
+              ></v-card-title>
 
-            <v-card-subtitle v-text="item.artist"></v-card-subtitle>
+              <v-card-subtitle v-text="item.artist"></v-card-subtitle>
 
-            <v-card-actions>
-              <v-btn :href="item.href" target="_blank" class="ml-2 mt-5" outlined rounded>
-                Open Resource
+              <v-card-actions>
+                <v-btn
+                  :href="item.href"
+                  target="_blank"
+                  class="ml-2 mt-5"
+                  outlined
+                  rounded
+                >
+                  Open Resource
+                </v-btn>
+              </v-card-actions>
+            </div>
+
+            <v-avatar class="ma-3" size="125" tile>
+              <v-btn href="item.href">
+                <v-img :src="item.src" width="140px"></v-img>
               </v-btn>
-            </v-card-actions>
+            </v-avatar>
           </div>
-
-          <v-avatar class="ma-3" size="125" tile>
-            <v-btn href="item.href">
-            <v-img :src="item.src" width="140px"></v-img>
-            </v-btn>
-          </v-avatar>
-        </div>
-      </v-card>
-    </div>
-  </v-container>
+        </v-card>
+      </div>
+    </v-container>
+    <my-footer></my-footer>
+  </div>
 </template>
 
 <script>
+import MyFooter from '@/components/Footer'
+
 export default {
+  components: {
+    MyFooter
+  },
   data: () => ({
     items: [
       {

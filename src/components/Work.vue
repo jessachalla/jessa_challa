@@ -1,5 +1,5 @@
 <template>
-  <div class="content-body">
+  <div class="content-body" style="overflow-x: hidden">
     <div class="work-container d-flex flex-column">
       <h4
         class="mb-4"
@@ -27,9 +27,22 @@
           <h4 class="work-title">Consulting</h4>
           <p class="work-info">
             After going through WMCAT's Public Agency's program Community
-            Catalysts, I have started doing consulting with community projects.
-            I am equipted with equity-centered design thinking and my own
-            unique, gentle perspective.
+            Catalysts, I have worked as a consultant on community projects. I am
+            equipted with equity-centered design thinking and my own unique,
+            gentle perspective.
+          </p>
+        </div>
+        <v-divider></v-divider>
+
+        <div class="work-list">
+          <h4 class="work-title">Teaching</h4>
+          <p class="work-info">
+            You can catch me teaching Grand Circus's Intro to Code workshop. I'm
+            not the teacher EVERY Tuesday, but they happen every Tuesday. Fill
+            free to sign up and write your first line of code:
+            <a href="https://www.grandcircus.co/workshops/" target="_blank"
+              >Grand Circus Workshops</a
+            >
           </p>
         </div>
         <v-divider></v-divider>
@@ -37,19 +50,6 @@
         <div class="work-list">
           <h4 class="work-title">Artwork</h4>
           <p class="work-info">something</p>
-        </div>
-        <v-divider></v-divider>
-
-        <div class="work-list">
-          <h4 class="work-title">Teaching</h4>
-          <p class="work-info">
-            You can catch me teaching Grand Circus's Intro to Code workshop. I
-            don't teach EVERY Tuesday, but it is happening every Tuesday. Fill
-            free to sign up and write your first line of code:
-            <a href="https://www.grandcircus.co/workshops/" target="_blank"
-              >Grand Circus Workshops</a
-            >
-          </p>
         </div>
         <v-divider></v-divider>
 
@@ -67,18 +67,24 @@
     <div class="logos-section" style="margin-top: -40px">
       <p>Who I've worked with before:</p>
       <div class="logos">
-        <div v-for="(icon, i) in icons" :key="i" class="mx-4">
+        <div v-for="(icon, i) in icons" :key="i" class="ma-3">
           <v-avatar :color="icon.color" size="120px"
             ><img :src="icon.src" :style="icon.style"
           /></v-avatar>
         </div>
       </div>
     </div>
+    <my-footer></my-footer>
   </div>
 </template>
 
 <script>
+import MyFooter from '@/components/Footer'
+
 export default {
+  components: {
+    MyFooter
+  },
   data: () => ({
     icons: [
       {
@@ -115,12 +121,14 @@ export default {
   background: #f2f2f2;
   display: flex;
   flex-direction: column;
-  height: 250px;
+  // height: 250px;
   align-items: center;
   padding: 24px;
 
   .logos {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }
 .work-container {
