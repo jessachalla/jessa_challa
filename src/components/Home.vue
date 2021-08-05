@@ -46,7 +46,7 @@ export default {
       'Life happens.',
       'Your mind is full of brilliant ideas.',
       'Give yourself the space to grow and learn.',
-      'Reflect on what is truely fulfilling to you.',
+      'Reflect on what is truly fulfilling to you.',
       'Accept your emotions and let them serve their purpose.',
       'Save your energy for things that matter to you.',
       'You are becoming closer to your true self every day.',

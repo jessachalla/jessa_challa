@@ -5,20 +5,20 @@
         class="mb-4"
         style="text-align: center; max-width: 650px; align-self: center"
       >
-        Need an expert and outside perspective on a project, initiative, or
-        dream you are working on? I’d love to help. Get in touch. This is the
-        work I do:
+        Need an expert? Or a new perspective on a project, initiative, or dream
+        you are working toward? I’d love to help! Get in touch. Here’s where I
+        can help:
       </h4>
       <div>
         <div class="work-list">
           <h4 class="work-title">Mallowfields</h4>
           <p class="work-info">
             I'm a Co-CEO and Software Engineer at Mallowfields. I have an
-            awesome team that creates enterprise software. Check out more of
+            incredible team that creates enterprise software. Check out more of
             what we do here:
             <a href="https://mallowfields.com" target="_blank"
               >Mallowfields Website</a
-            >
+            >.
           </p>
         </div>
         <v-divider></v-divider>
@@ -27,9 +27,9 @@
           <h4 class="work-title">Consulting</h4>
           <p class="work-info">
             After going through WMCAT's Public Agency's program Community
-            Catalysts, I have worked as a consultant on community projects. I am
-            equipted with equity-centered design thinking and my own unique,
-            gentle perspective.
+            Catalysts, I have worked as a consultant on community projects. I
+            specialize in equity-centered design thinking and have my own
+            unique, gentle perspective.
           </p>
         </div>
         <v-divider></v-divider>
@@ -42,7 +42,7 @@
             free to sign up and write your first line of code:
             <a href="https://www.grandcircus.co/workshops/" target="_blank"
               >Grand Circus Workshops</a
-            >
+            >.
           </p>
         </div>
         <v-divider></v-divider>
@@ -50,7 +50,7 @@
         <div class="work-list">
           <h4 class="work-title">Artwork</h4>
           <p class="work-info">
-            I am an artist by nature. I paint with acrylics and create digital
+            I am a creative by nature. I paint with acrylics and create digital
             illustrations.
           </p>
         </div>
@@ -60,7 +60,7 @@
           <h4 class="work-title">Speaking</h4>
           <p class="work-info">
             I love to share what I know. I am open to speaking on panels
-            discussing technology, art, and community.
+            discussing technology, art, equity-centered design, and community.
           </p>
         </div>
         <v-divider></v-divider>
@@ -71,7 +71,7 @@
     </div>
 
     <div class="logos-section" style="margin-top: -40px">
-      <p>Who I've worked with before:</p>
+      <p>Who I've worked with:</p>
       <div class="logos">
         <div v-for="(icon, i) in icons" :key="i" class="ma-3">
           <v-avatar :color="icon.color" size="120px"
