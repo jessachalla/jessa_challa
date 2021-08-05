@@ -18,11 +18,12 @@ html {
 .nav-bar {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .nav-links {
   text-decoration: none;
+  margin: 0 20px;
 }
 
 .pool {
@@ -67,7 +68,7 @@ html {
   font-size: 0.9vw;
 }
 
-@media only screen and (max-width: 1052px) {
+@media only screen and (max-width: 1262px) {
   .page-title {
     font-size: 32px;
   }
@@ -81,8 +82,8 @@ html {
   }
 
   .container {
-    max-width: 1200px !important;
-    padding: 24px !important;
+    max-width: 1000px !important;
+    padding: 40px !important;
   }
   .about {
     .jessa {

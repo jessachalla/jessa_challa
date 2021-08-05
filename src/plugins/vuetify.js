@@ -16,7 +16,9 @@ export default new Vuetify({
         secondary: '#6fc6c3',
         highlight: '#c1e5d9',
         text: '#1e1e24',
-        red: '#92140c'
+        red: '#92140c',
+        gray: '#f2f2f2',
+        white: '#ffffff'
 
       }
     }

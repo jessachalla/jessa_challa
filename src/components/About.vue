@@ -6,7 +6,7 @@
         src="images/jessa_cutout.jpg"
         class="jessa"
       ></v-img>
-      <p class="intro-p pt-6">
+      <p class="intro-p">
         <span class="flair">Hey there! </span> I'm Jessa Challa. I'm a lifelong
         Grand Rapids resident and equity advocate. I'm Co-CEO and a Software
         Engineer at a minority and women-owned software company,

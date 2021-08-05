@@ -6,7 +6,8 @@
           <router-link
             :to="'/'"
             name="home"
-            class="nav-links page-title home-active"
+            class="page-title home-active"
+            style="text-decoration: none;"
             >jessa challa</router-link
           >
         </h1>
@@ -38,7 +39,6 @@
     <div>
       <v-list class="nav-bar nav-text">
         <router-link
-          :elevation="hover ? 16 : 2"
           v-for="(item, i) in menu"
           :key="i"
           :to="item.path"
