@@ -1,9 +1,6 @@
 <template>
   <div class="content-container content-body">
-    <v-card
-      flat
-      class="content-body d-flex flex-column align-center mt-4"
-    >
+    <v-card flat class="content-body d-flex flex-column align-center mt-4">
       <h1>Welcome!</h1>
       <span>I'm so glad you're here!</span>
       <div
@@ -37,13 +34,13 @@ export default {
     affirmation: '',
     affirmations: [
       'Small progress is still progress.',
+      'In the long run, very little happens naturally.',
+      'Our world comes just as much from the inside-out as the outside-in.',
       'The path to success is to take massive, determined action.',
       'I give myself permission to do what is right for me.',
-      'It is not a sprint, it is a marathon. One step at a time.',
       "I'm rooting for you.",
       "You're an inspiration.",
       'You are worthy and deserving of respect.',
-      'Life happens.',
       'Your mind is full of brilliant ideas.',
       'Give yourself the space to grow and learn.',
       'Reflect on what is truly fulfilling to you.',
@@ -54,9 +51,12 @@ export default {
       'Take time for fun.',
       'Release self-criticism and choose self-love.',
       'You are brave.',
-      'It is enough to do your best.',
-      'You are powerful.',
-      'You are amazing',
+      'Let your spirit define you.',
+      'Ask yourself: how can I experience the world better?',
+      'Social friction is what advances civilization.',
+      'Committing to a choice makes hard decisions easy.',
+      'The desired outcome of a decision is up to you, not to the choice itself.',
+      "We cannot make spaces FOR everyone if we aren't listening to everyone.",
       'Little by little, you are becoming the person you want to be.'
     ]
   }),
