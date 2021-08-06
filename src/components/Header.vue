@@ -46,7 +46,7 @@
           :class="item.path === $route.path ? 'active' : ''"
           class="nav-links"
         >
-          <span class="px-4 nav">{{ item.name }}</span>
+          <span class="nav">{{ item.name }}</span>
         </router-link>
         <!-- <a
           v-for="(item, i) in menu"

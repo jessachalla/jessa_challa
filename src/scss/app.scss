@@ -32,7 +32,7 @@ body::after {
 
 .nav-links {
   text-decoration: none;
-  margin: 0 20px;
+  margin: 0 50px;
 }
 
 .contact-links {
@@ -85,6 +85,10 @@ body::after {
     font-size: 32px;
   }
 
+  .nav-links {
+    margin: 0 20px;
+  }
+
   .nav {
     font-size: 12px;
   }
@@ -99,8 +103,8 @@ body::after {
   }
   .about {
     .jessa {
-      height: 55vh !important;
-      width: 200px;
+      height: 240px;
+      width: 120px;
     }
     .intro-p {
       font-size: 14px;
@@ -116,6 +120,41 @@ body::after {
 
 @media only screen and (max-width: 985px) {
   .about {
-    overflow: auto;
+    overflow: auto !important;
+  }
+}
+
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation: portrait) {
+  body,
+  html {
+    height: 1024px;
+  }
+}
+
+/* iPad with landscape orientation. */
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation: landscape) {
+  body,
+  html {
+    height: 768px;
+  }
+}
+
+@media all and (device-width: 375px) and (orientation: portrait) {
+  body,
+  html {
+    height: 812px;
+  }
+
+  .pool {
+    height: 50vh;
+  }
+}
+
+/* iPhone 5 
+You can also target devices with aspect ratio. */
+@media screen and (device-aspect-ratio: 40/71) {
+  body,
+  html {
+    height: 500px;
   }
 }

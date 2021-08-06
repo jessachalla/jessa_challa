@@ -82,6 +82,8 @@ export default {
   .contact-title {
     font-family: "Caveat";
     font-size: 24px;
+    line-height: 20px;
+    margin-bottom: 4px;
   }
 }
 
