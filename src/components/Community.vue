@@ -96,7 +96,6 @@ export default {
 @media only screen and (max-width: 897px) {
   .community-footer {
     position: static;
-    bottom: 0;
   }
 }
 </style>

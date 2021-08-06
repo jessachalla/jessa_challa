@@ -80,7 +80,7 @@
         </div>
       </div>
     </div>
-    <my-footer></my-footer>
+    <my-footer class="work-footer"></my-footer>
   </div>
 </template>
 
@@ -123,11 +123,24 @@ export default {
 </script>
 
 <style lang="scss">
+.work-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+@media only screen and (max-width: 1600px) {
+  .work-footer {
+    position: static;
+    bottom: 0;
+  }
+}
+
 .logos-section {
   background: #f2f2f2;
   display: flex;
   flex-direction: column;
-  // height: 250px;
+  min-height: 280px;
   align-items: center;
   padding: 24px;
 

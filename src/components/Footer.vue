@@ -9,6 +9,5 @@
   display: flex;
   justify-content: center;
   background: #f2f2f2;
-  align-self: flex-end;
 }
 </style>

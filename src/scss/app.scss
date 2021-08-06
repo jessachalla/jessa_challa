@@ -15,6 +15,15 @@ html {
   overflow: hidden;
 }
 
+body::after {
+  position: absolute;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  z-index: -1; // hide images
+  content: url(/images/pool_water.jpg) url(/images/jessa_cutout.jpg); // load images
+}
+
 .nav-bar {
   display: flex;
   flex-wrap: wrap;
@@ -47,7 +56,6 @@ html {
   width: 100%;
   flex-wrap: wrap;
   justify-content: space-evenly;
-
 }
 
 .about {
