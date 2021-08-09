@@ -1,5 +1,5 @@
 <template>
-  <v-app class="safari_only">
+  <v-app>
     <div class="content-container safari_only">
       <my-header></my-header>
       <div class="content-container">

@@ -38,15 +38,9 @@ body {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   width: 70%;
-  height: 70%;
+  height: 65%;
   cursor: grab;
   margin: 10px;
-}
-
-@media only screen and (max-width: 800px) {
-  .pool {
-    height: 60%;
-  }
 }
 
 .resources {
