@@ -32,7 +32,7 @@
             </div>
 
             <v-avatar class="ma-3" size="125" tile>
-              <v-btn :href="item.href">
+              <v-btn :href="item.href" target="_blank">
                 <v-img :src="item.src" width="140px"></v-img>
               </v-btn>
             </v-avatar>

@@ -10,10 +10,10 @@
         </div>
 
         <div class="contact-info">
-          <p class="contact-title">Personal Email</p>
+          <p class="contact-title">Email</p>
           <p>
-            <a class="contact-links" href="mailto:jessa.challa@gmail.com"
-              >jessa.challa@gmail.com</a
+            <a class="contact-links" href="mailto:contact@jessachalla.com"
+              >contact@jessachalla.com</a
             >
           </p>
         </div>
@@ -28,9 +28,8 @@
         </div>
 
         <div class="contact-info">
-          <p class="contact-title">
-            AIGA WM - Dir. of Community & Connection
-          </p>
+          <p class="contact-title">AIGA WM</p>
+          <p class="contact-title">Dir. of Community & Connection</p>
           <p>
             <a
               class="contact-links"
@@ -47,7 +46,7 @@
               class="contact-links"
               href="https://calendly.com/jessa-challa-1/coffee-talk"
               target="_blank"
-              >Set up virtual chat here.</a
+              >Set up virtual chat here</a
             >
           </p>
         </div>
@@ -76,7 +75,7 @@ export default {
 
 <style lang="scss">
 .contact-info {
-  margin-top: 64px;
+  margin-top: 36px;
   line-height: 10px;
 
   .contact-title {
@@ -103,9 +102,9 @@ export default {
 }
 
 @media only screen and (max-width: 698px) {
-.contact-footer {
-  position: static;
-  bottom: 0;
-}
+  .contact-footer {
+    position: static;
+    bottom: 0;
+  }
 }
 </style>
