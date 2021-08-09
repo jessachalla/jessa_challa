@@ -1,6 +1,6 @@
 <template>
   <div class="content-body">
-    <v-container class="d-flex flex-wrap" style="max-width: 800px">
+    <v-container class="d-flex flex-wrap" style="max-width: 800px; margin-bottom: 85px;">
       <div class="contact-page">
         <div class="contact-info">
           <p class="contact-title">Call or Text</p>

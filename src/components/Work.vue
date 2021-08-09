@@ -142,7 +142,7 @@ export default {
   flex-direction: column;
   min-height: 280px;
   align-items: center;
-  padding: 24px;
+  padding: 24px 24px 85px;
 
   .logos {
     display: flex;
