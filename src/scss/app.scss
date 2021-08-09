@@ -7,21 +7,14 @@
   transition: none !important;
 }
 
-body,
-html {
+html,
+body {
   margin: 0;
   padding: 0;
+  position: relative;
   height: 100%;
   overflow: hidden;
-}
-
-body::after {
-  position: absolute;
-  width: 0;
-  height: 0;
-  overflow: hidden;
-  z-index: -1; // hide images
-  content: url(/images/pool_water.jpg) url(/images/jessa_cutout.jpg); // load images
+  -webkit-overflow-scrolling: touch;
 }
 
 .nav-bar {
@@ -48,6 +41,12 @@ body::after {
   height: 70%;
   cursor: grab;
   margin: 10px;
+}
+
+@media only screen and (max-width: 800px) {
+  .pool {
+    height: 60%;
+  }
 }
 
 .resources {

@@ -1,24 +1,13 @@
 <template>
-  <div class="content-container content-body">
-    <v-card flat class="content-body d-flex flex-column align-center mt-4">
-      <h1>Welcome!</h1>
-      <span>I'm so glad you're here!</span>
-      <div
-        @click="splash"
-        class="
-          pool
-          d-flex
-          flex-column
-          justify-center
-          align-center align-self-center
-        "
-      >
-        <div class="affirmation">
-          <p v-if="!affirmation">Take a moment to splash around...</p>
-          <p>{{ affirmation }}</p>
-        </div>
+  <div class="content-body d-flex flex-column align-center mt-4">
+    <h1>Welcome!</h1>
+    <span>I'm so glad you're here!</span>
+    <div @click="splash" class="pool d-flex justify-center align-center">
+      <div class="affirmation">
+        <p v-if="!affirmation">Take a moment to splash around...</p>
+        <p>{{ affirmation }}</p>
       </div>
-    </v-card>
+    </div>
     <my-footer class="home-footer"></my-footer>
   </div>
 </template>
@@ -75,5 +64,11 @@ export default {
   position: absolute;
   bottom: 0;
   width: 100%;
+}
+
+@media only screen and (max-width: 897px) {
+  .home-footer {
+    position: fixed;
+  }
 }
 </style>
