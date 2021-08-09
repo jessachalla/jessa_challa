@@ -139,17 +139,6 @@ body::after {
   }
 }
 
-@media all and (device-width: 375px) and (orientation: portrait) {
-  body,
-  html {
-    height: 812px;
-  }
-
-  .pool {
-    height: 50vh;
-  }
-}
-
 /* iPhone 5 
 You can also target devices with aspect ratio. */
 @media screen and (device-aspect-ratio: 40/71) {

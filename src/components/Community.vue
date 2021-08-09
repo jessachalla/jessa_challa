@@ -32,7 +32,7 @@
             </div>
 
             <v-avatar class="ma-3" size="125" tile>
-              <v-btn href="item.href">
+              <v-btn :href="item.href">
                 <v-img :src="item.src" width="140px"></v-img>
               </v-btn>
             </v-avatar>
@@ -57,7 +57,7 @@ export default {
         color: 'primary',
         src: 'images/map_project.jpg',
         title: 'Minority-Owned Businesses in GR Map',
-        href: 'https://arcg.is/1viKzz0',
+        href: 'https://arcg.is/1zKiiP',
         artist: 'Created by Jessa Challa'
       },
       {
