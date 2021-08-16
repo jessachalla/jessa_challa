@@ -67,10 +67,6 @@ export default {
   justify-content: center;
 }
 
-.video-container {
-  // max-width: 700px;
-}
-
 .video {
   margin: 30px 0;
   align-self: center;
