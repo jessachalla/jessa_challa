@@ -1,7 +1,7 @@
 <template>
   <div class="content-body">
-    <v-container class="d-flex flex-wrap" style="max-width: 800px; margin-bottom: 85px;">
-      <div class="contact-page">
+    <div class="contact-page">
+      <div>
         <div class="contact-info">
           <p class="contact-title">Call or Text</p>
           <p>
@@ -52,13 +52,12 @@
         </div>
       </div>
 
-      <v-img
+      <img
         src="images/Jessa_Challa_Headshot.jpg"
-        contain
         height="400px"
-        width="200px"
-      ></v-img>
-    </v-container>
+        class="headshot"
+      />
+    </div>
     <my-footer class="contact-footer"></my-footer>
   </div>
 </template>
@@ -74,6 +73,14 @@ export default {
 </script>
 
 <style lang="scss">
+.contact-page {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
 .contact-info {
   margin-top: 36px;
   line-height: 10px;
@@ -84,6 +91,10 @@ export default {
     line-height: 20px;
     margin-bottom: 4px;
   }
+}
+
+.headshot {
+  margin-left: 20px;
 }
 
 .contact-footer {
@@ -98,6 +109,11 @@ export default {
   }
   .contact-info {
     margin-top: 32px;
+  }
+
+  .headshot {
+    margin-top: 20px;
+    margin-left: 0;
   }
 }
 

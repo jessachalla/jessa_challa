@@ -28,7 +28,7 @@
           </v-btn>
           <v-btn
             icon
-            href="https://www.instagram.com/jesshollaatme/"
+            href="https://www.instagram.com/jessa.challa/"
             target="_blank"
           >
             <v-icon size="24px" color="primary"> mdi-instagram </v-icon>
