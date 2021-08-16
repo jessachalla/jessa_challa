@@ -5,7 +5,7 @@
       <div class="video-container">
         <iframe
           class="video"
-          src="https://www.youtube.com/embed/XbzKTciguVs"
+          src="https://www.youtube-nocookie.com/embed/XbzKTciguVs"
           title="YouTube video player"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -15,7 +15,7 @@
       <div class="video-container">
         <iframe
           class="video"
-          src="https://www.youtube.com/embed/3fvwlZcMSX8"
+          src="https://www.youtube-nocookie.com/embed/3fvwlZcMSX8"
           title="YouTube video player"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -25,7 +25,7 @@
       <div class="video-container">
         <iframe
           class="video"
-          src="https://www.youtube.com/embed/82vdaXjxRgg"
+          src="https://www.youtube-nocookie.com/embed/82vdaXjxRgg"
           title="YouTube video player"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -35,7 +35,7 @@
       <div class="video-container">
         <iframe
           class="video"
-          src="https://www.youtube.com/embed/ak5wA4oTAdM"
+          src="https://www.youtube-nocookie.com/embed/ak5wA4oTAdM"
           title="YouTube video player"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -65,6 +65,7 @@ export default {
   flex-wrap: wrap;
   align-content: center;
   justify-content: center;
+  margin-bottom: 85px;
 }
 
 .video {

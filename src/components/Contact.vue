@@ -80,6 +80,7 @@ export default {
   flex-wrap: wrap;
   align-content: center;
   justify-content: center;
+  margin-bottom: 85px;
 }
 .contact-info {
   margin-top: 36px;
