@@ -5,8 +5,7 @@ import HomePage from '@/views/HomePage.vue'
 import AboutPage from '@/views/AboutPage.vue'
 import WorkPage from '@/views/WorkPage.vue'
 import CommunityPage from '@/views/CommunityPage.vue'
-// import GalleryPage from '@/views/GalleryPage.vue'
-// import NewsPage from '@/views/NewsPage.vue'
+import NewsPage from '@/views/NewsPage.vue'
 import ContactPage from '@/views/ContactPage.vue'
 
 Vue.use(VueRouter)
@@ -29,18 +28,14 @@ export default new VueRouter({
       path: '/work',
       name: 'work',
       component: WorkPage
-      // }, {
-      //   path: '/gallery',
-      //   name: 'gallery',
-      //   component: GalleryPage
     }, {
       path: '/community',
       name: 'Community',
       component: CommunityPage
-    // }, {
-    //   path: '/news',
-    //   name: 'news',
-    //   component: NewsPage
+    }, {
+      path: '/media',
+      name: 'media',
+      component: NewsPage
     }, {
       path: '/contact',
       name: 'contact',

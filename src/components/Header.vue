@@ -48,16 +48,6 @@
         >
           <span class="nav">{{ item.name }}</span>
         </router-link>
-        <!-- <a
-          v-for="(item, i) in menu"
-          :key="i"
-          :href="item.path"
-          active-class="active"
-          :class="item.path === $route.path ? 'active' : ''"
-          class="nav-links"
-        >
-          <span class="px-4 nav">{{ item.name }}</span>
-        </a> -->
       </v-list>
     </div>
   </div>
@@ -70,7 +60,7 @@ export default {
       { name: 'About', path: '/about' },
       { name: 'Work', path: '/work' },
       { name: 'Community', path: '/community' },
-      // { name: 'In the News', path: '/news' },
+      { name: 'Media', path: '/media' },
       { name: 'Contact', path: '/contact' }
     ]
   })
