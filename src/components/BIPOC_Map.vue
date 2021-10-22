@@ -22,13 +22,16 @@
         </div>
       </div>
     </div>
+    <my-footer class="work-footer"></my-footer>
   </div>
 </template>
 <script>
 import Unicorn from '@/components/Unicorn.vue'
+import MyFooter from '@/components/Footer'
 export default {
   components: {
-    Unicorn
+    Unicorn,
+    MyFooter
   }
 }
 </script>

@@ -9,10 +9,20 @@
     :search="search"
     :items-per-page="100000"
     class="elevation-1 data-table"
-    v-if="this.businesses.length"
   >
+    <!-- v-if="this.businesses.length" -->
     <template v-slot:top>
-      <v-text-field v-model="search" label="Search" class="mx-4"></v-text-field>
+      <div
+        style="width: 100%;"
+        class="d-flex justify-space-between align-center px-2"
+      >
+        <v-text-field
+          v-model="search"
+          label="Search"
+          class="mx-4"
+        ></v-text-field>
+        <v-btn color="primary" small href="https://docs.google.com/forms/d/e/1FAIpQLSctlAOkkbKRVIJ5VI6caHlK3eZX84R1hvrcCX98WPXQd7_zCw/viewform" target="_blank" outlined>CLick Here to Submit a Business</v-btn>
+      </div>
     </template>
 
     <template #item.name="{ item }">
@@ -20,23 +30,6 @@
         {{ item.name }}
       </a>
     </template>
-    <!-- <template slot="item" slot-scope="row">
-      <tr>
-        <td class="table-col">
-          <a :href="row.item.website">{{ row.item.name }}</a>
-        </td>
-
-        <td class="small-table-col">{{ row.item.industry }}</td>
-
-        <td class="table-col">
-          {{ row.item.about }}
-        </td>
-
-        <td class="small-table-col">
-          {{ row.item.ownership }}
-        </td>
-      </tr>
-    </template> -->
   </v-data-table>
 </template>
 
