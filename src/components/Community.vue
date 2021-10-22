@@ -57,7 +57,7 @@ export default {
         color: 'primary',
         src: 'images/map_project.jpg',
         title: 'Minority-Owned Businesses in GR Map',
-        href: 'https://arcg.is/1zKiiP',
+        href: 'https://www.jessachalla.com/bipoc',
         artist: 'Created by Jessa Challa'
       },
       {

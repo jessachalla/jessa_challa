@@ -7,6 +7,7 @@ import WorkPage from '@/views/WorkPage.vue'
 import CommunityPage from '@/views/CommunityPage.vue'
 import NewsPage from '@/views/NewsPage.vue'
 import ContactPage from '@/views/ContactPage.vue'
+import MapPage from '@/views/MapPage.vue'
 
 Vue.use(VueRouter)
 
@@ -40,6 +41,10 @@ export default new VueRouter({
       path: '/contact',
       name: 'contact',
       component: ContactPage
+    }, {
+      path: '/bipoc',
+      name: 'bipoc',
+      component: MapPage
     }
   ]
 })
