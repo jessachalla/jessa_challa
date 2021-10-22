@@ -36,3 +36,25 @@
   height: 100%;
   width: 100%;
 }
+
+.v-data-footer {
+  display: none;
+}
+
+.directory-section {
+  width: 100%;
+  height: 52%;
+  background: #4da0a86e;
+}
+
+.bis-directory {
+  width: 95%;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.small-table-col {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
