@@ -16,22 +16,19 @@
       </div>
 
       <div class="d-flex align-center flex-column directory-section">
-        <div class="d-flex align-center flex-column bis-directory" style="width: 90%;">
+        <div class="d-flex align-center flex-column bis-directory" style="width: 95%;">
           <h1>BIPOC Business Directory</h1>
           <unicorn class="content-body" style="height:100%;"></unicorn>
         </div>
       </div>
     </div>
-    <my-footer class="work-footer"></my-footer>
   </div>
 </template>
 <script>
 import Unicorn from '@/components/Unicorn.vue'
-import MyFooter from '@/components/Footer'
 export default {
   components: {
-    Unicorn,
-    MyFooter
+    Unicorn
   }
 }
 </script>
@@ -39,7 +36,7 @@ export default {
 <style lang="scss">
 .data-table {
   .v-data-table__wrapper {
-    max-height: calc(100vh - 270px) !important;
+    max-height: calc(100vh - 350px) !important;
   }
 }
 </style>

@@ -14,14 +14,14 @@
     <template v-slot:top>
       <div
         style="width: 100%;"
-        class="d-flex justify-space-between align-center px-2"
+        class="d-flex align-center pt-4 px-2 flex-wrap"
       >
+        <v-btn class="mx-4" color="primary" small href="https://docs.google.com/forms/d/e/1FAIpQLSctlAOkkbKRVIJ5VI6caHlK3eZX84R1hvrcCX98WPXQd7_zCw/viewform" target="_blank" outlined>CLick Here to Submit a Business</v-btn>
         <v-text-field
           v-model="search"
-          label="Search"
+          label="Search Businesses"
           class="mx-4"
         ></v-text-field>
-        <v-btn color="primary" small href="https://docs.google.com/forms/d/e/1FAIpQLSctlAOkkbKRVIJ5VI6caHlK3eZX84R1hvrcCX98WPXQd7_zCw/viewform" target="_blank" outlined>CLick Here to Submit a Business</v-btn>
       </div>
     </template>
 
