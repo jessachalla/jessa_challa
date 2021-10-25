@@ -36,7 +36,7 @@ export default {
 <style lang="scss">
 .data-table {
   .v-data-table__wrapper {
-    max-height: calc(100vh - 280px) !important;
+    max-height: calc(100vh - 400px) !important;
   }
 }
 </style>
