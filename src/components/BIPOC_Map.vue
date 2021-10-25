@@ -6,7 +6,7 @@
           src="https://mallowfields.maps.arcgis.com/apps/instant/interactivelegend/index.html?appid=dbfdb420ccc241b39a0b9a9ca9a59507"
           class="map"
           frameborder="0"
-          style="border: 0"
+          style="border: 0;"
           allowfullscreen
           >iFrames are not supported on this page.</iframe
         >
@@ -17,7 +17,7 @@
 
       <div class="d-flex align-center flex-column directory-section">
         <div class="d-flex align-center flex-column bis-directory" style="width: 95%;">
-          <h1>BIPOC Business Directory</h1>
+          <h2>BIPOC Business Directory</h2>
           <unicorn class="content-body" style="height:100%;"></unicorn>
         </div>
       </div>
