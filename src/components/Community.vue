@@ -21,7 +21,7 @@
               <v-card-actions>
                 <v-btn
                   :href="item.href"
-                  target="_blank"
+                  :target="item.target"
                   class="ml-2 mt-5"
                   outlined
                   rounded
@@ -58,6 +58,7 @@ export default {
         src: 'images/map_project.jpg',
         title: 'Minority-Owned Businesses in GR Map',
         href: 'https://www.jessachalla.com/bipoc',
+        target: '',
         artist: 'Created by Jessa Challa'
       },
       {
@@ -65,6 +66,7 @@ export default {
         src: 'images/kids_count.jpg',
         title: 'MLPP 2021 Kids Count Data Book',
         href: 'https://mlpp.org/kids-count/2021databook/',
+        target: '_blank',
         artist: 'Illustrations by Jessa Challa'
       },
       {
@@ -72,6 +74,7 @@ export default {
         src: 'images/walker_parks_project.jpg',
         title: 'City of Walker Parks Map',
         href: 'https://arcg.is/0KbeG1',
+        target: '_blank',
         artist: 'Created by Jessa Challa'
       },
       {
@@ -79,6 +82,7 @@ export default {
         src: 'images/veterans_services_map.jpg',
         title: 'West Michigan Veterans Coalition Map',
         href: 'https://arcg.is/1ieGLn',
+        target: '_blank',
         artist: 'Created by Jessa Challa'
       }
     ]
