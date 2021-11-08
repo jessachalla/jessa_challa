@@ -60,7 +60,7 @@ export default {
       { name: 'About', path: '/about' },
       { name: 'Work', path: '/work' },
       { name: 'Community', path: '/community' },
-      { name: 'Media', path: '/media' },
+      { name: 'Press', path: '/press' },
       { name: 'Contact', path: '/contact' }
     ]
   })

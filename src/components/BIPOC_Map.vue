@@ -18,17 +18,17 @@
       <div class="d-flex align-center flex-column directory-section">
         <div class="d-flex align-center flex-column bis-directory" style="width: 95%;">
           <h2>BIPOC Business Directory</h2>
-          <unicorn class="content-body" style="height:100%;"></unicorn>
+          <bipoc class="content-body" style="height:100%;"></bipoc>
         </div>
       </div>
     </div>
   </div>
 </template>
 <script>
-import Unicorn from '@/components/Unicorn.vue'
+import Bipoc from '@/components/Bipoc.vue'
 export default {
   components: {
-    Unicorn
+    Bipoc
   }
 }
 </script>

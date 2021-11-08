@@ -34,8 +34,8 @@ export default new VueRouter({
       name: 'Community',
       component: CommunityPage
     }, {
-      path: '/media',
-      name: 'media',
+      path: '/press',
+      name: 'press',
       component: NewsPage
     }, {
       path: '/contact',

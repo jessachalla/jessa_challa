@@ -47,10 +47,10 @@ export default {
       search: '',
       options: {},
       headers: [
-        { text: 'Name', value: 'name' },
+        { text: 'Name', value: 'name', width: '200' },
         { text: 'Industry', value: 'industry' },
         { text: 'About', value: 'about' },
-        { text: 'Ownership', value: 'ownership' }
+        { text: 'Ownership', value: 'ownership', width: '150' }
       ]
     }
   },
