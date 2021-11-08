@@ -25,8 +25,9 @@
 .flair {
   @extend .default-type;
   font-size: 1.8vw;
-  color: #92140c;
+  color: #92140c !important;
   line-height: 3vh;
+  text-decoration: none;
 }
 
 .signature {

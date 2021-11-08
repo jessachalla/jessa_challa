@@ -8,37 +8,54 @@
           class="jessa"
         ></v-img>
         <p class="intro-p">
-          <span class="flair">Hi there! </span> I'm Jessa Challa (she/her). I’m
-          a biracial Black woman, lifelong Grand Rapids resident, and equity
-          advocate. For work, I’m a Co-CEO and Software Engineer at
-          <span class="flair">Mallowfields</span>, a minority and women-owned
-          software company in Grand Rapids, MI.
+          Hi there! I'm Jessa Challa (she/her). I’m a biracial Black woman,
+          lifelong Grand Rapids resident, and equity advocate. For work, I’m the
+          CEO and a Software Engineer at
+          <a href="https://mallowfields.com/" target="_blank" class="flair"
+            >Mallowfields</a
+          >, a certified minority and women-owned software company in Grand
+          Rapids, MI.
         </p>
         <p class="intro-p">
-          I graduated from <span class="flair">Aquinas College</span> with a
-          degree in Geography. I focused on Geographic Information Systems
-          (GIS), which opened doors to impact local government and the nonprofit
-          sector. In the past, I’ve worked at the Grand Valley Metro Council,
-          Grand Rapids Public Museum, and the City of Grand Rapids Engineering
-          Department and Parking Department.
+          I graduated from
+          <a href="https://www.aquinas.edu/" target="_blank" class="flair"
+            >Aquinas College</a
+          >
+          with a degree in Geography. I focused on Geographic Information
+          Systems (GIS), which opened doors to impact local government and the
+          nonprofit sector. In the past, I’ve worked at the Grand Valley Metro
+          Council, Grand Rapids Public Museum, and the City of Grand Rapids
+          Engineering Department and Parking Department.
         </p>
         <p class="intro-p">
           So how did I become a Software Engineer? Well, my tech journey was
           non-traditional: in 2019, I completed a Coding Bootcamp at
-          <span class="flair">Grand Circus</span>. Now, I teach free coding
-          classes through Grand Circus, mentor and connect womxn and BIPOC
-          individuals to opportunities in the tech sector, and maintain a high
-          level of excellence within my field. I have the ultimate goal of
-          making the tech sector a more inviting and inclusive place for all.
+          <a href="https://www.grandcircus.co/" target="_blank" class="flair"
+            >Grand Circus</a
+          >. Now, I teach free coding classes through Grand Circus. I also
+          mentor and connect womxn and BIPOC individuals to opportunities in the
+          tech sector. I have the ultimate goal of making the tech sector a more
+          inviting and inclusive place for all.
         </p>
         <p class="intro-p">
           And what about community work? Well, that’s where my heart is at! I
           was a member of the 2020 Cohort of Community Catalysts at
-          <span class="flair">WMCAT’s Public Agency</span>. In that program, I
-          learned how to utilize Equity-Centered Design to challenge and change
-          systems and institutions of power to be more equitable. I continue to
-          work with Public Agency, but I also work on personal projects that I
-          share as community resources.
+          <a
+            href="https://publicagency.wmcat.org/"
+            target="_blank"
+            class="flair"
+            >WMCAT’s Public Agency</a
+          >. In that program, I learned how to utilize Equity-Centered Design to
+          challenge and change systems and institutions of power to be more
+          equitable. Right now, I am in the
+          <a
+            href="https://www.urbancorecollective.org/"
+            target="_blank"
+            class="flair"
+            >Urban Core Collective's</a
+          >
+          Transformational Leaders Program. I also work on personal projects
+          that I share as community resources.
         </p>
         <p class="intro-p">
           I am very thankful that you stopped by to learn a little more about

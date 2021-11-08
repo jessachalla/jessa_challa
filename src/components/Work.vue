@@ -13,7 +13,7 @@
         <div class="work-list">
           <h4 class="work-title">Mallowfields</h4>
           <p class="work-info">
-            I'm a Co-CEO and Software Engineer at Mallowfields. I have an
+            I'm the CEO and a Software Engineer at Mallowfields. I have an
             incredible team that creates enterprise software. Check out more of
             what we do here:
             <a href="https://mallowfields.com" target="_blank"
@@ -74,9 +74,11 @@
       <p>Who I've worked with:</p>
       <div class="logos">
         <div v-for="(icon, i) in icons" :key="i" class="ma-3">
-          <v-avatar :color="icon.color" size="120px"
-            ><img :src="icon.src" :style="icon.style"
-          /></v-avatar>
+          <a :href="icon.href" :target="icon.target">
+            <v-avatar :color="icon.color" size="120px"
+              ><img :src="icon.src" :style="icon.style"
+            /></v-avatar>
+          </a>
         </div>
       </div>
     </div>
@@ -97,25 +99,36 @@ export default {
         color: 'primary',
         src: 'images/Grand-Circus.png',
         href: 'https://grandcircus.co',
+        target: '_blank',
         style: 'height:50%; width:70%; border-radius: 0;'
       },
       {
         color: 'white',
         src: 'images/aiga_wm.png',
-        href: 'https://grandcircus.co',
+        href: 'https://westmichigan.aiga.org/',
+        target: '_blank',
         style: 'height:25%; width:80%; border-radius: 0;'
       },
       {
         color: 'primary',
         src: 'images/wmcat_white.svg',
-        href: 'https://grandcircus.co',
+        href: 'https://publicagency.wmcat.org/',
+        target: '_blank',
         style: 'width:90%; border-radius: 0;'
       },
       {
         color: 'white',
         src: 'images/EquityPac.png',
-        href: 'https://grandcircus.co',
+        href: 'https://www.equitypacmi.com/',
+        target: '_blank',
         style: 'height:65%; width:80%; border-radius: 0;'
+      },
+      {
+        color: 'primary',
+        src: 'images/urbancorecollective.png',
+        href: 'https://www.urbancorecollective.org/',
+        target: '_blank',
+        style: 'height:45%; width:80%; border-radius: 0;'
       }
     ]
   })
