@@ -9,7 +9,7 @@
         you are working toward? I’d love to help! Get in touch. Here’s where I
         can help:
       </h4>
-      <div>
+      <div class="d-flex flex-column align-center">
         <div class="work-list">
           <h4 class="work-title">Mallowfields</h4>
           <p class="work-info">
@@ -185,6 +185,7 @@ export default {
   @media only screen and (max-width: 800px) {
     .work-list {
       justify-content: space-between;
+      width: 90vw;
     }
   }
 }

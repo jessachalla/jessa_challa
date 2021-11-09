@@ -14,7 +14,7 @@
           </thead>
           <tbody>
             <tr v-for="item in articles" :key="item.name">
-              <td>
+              <td class="py-2">
                 <a :href="item.href" :target="item.target">{{ item.name }}</a>
               </td>
               <td>{{ item.publisher }}</td>

@@ -81,6 +81,7 @@ export default {
   align-content: center;
   justify-content: center;
   margin-bottom: 85px;
+  margin-top: 30px;
 }
 .contact-info {
   margin-top: 36px;

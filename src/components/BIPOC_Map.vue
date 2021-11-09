@@ -6,7 +6,7 @@
           src="https://mallowfields.maps.arcgis.com/apps/instant/interactivelegend/index.html?appid=dbfdb420ccc241b39a0b9a9ca9a59507"
           class="map"
           frameborder="0"
-          style="border: 0;"
+          style="border: 0"
           allowfullscreen
           >iFrames are not supported on this page.</iframe
         >
@@ -16,19 +16,27 @@
       </div>
 
       <div class="d-flex align-center flex-column directory-section">
-        <div class="d-flex align-center flex-column bis-directory" style="width: 95%;">
+        <div
+          class="d-flex align-center flex-column bis-directory"
+          style="width: 95%"
+        >
           <h2>BIPOC Business Directory</h2>
-          <bipoc class="content-body" style="height:100%;"></bipoc>
+          <bipoc class="content-body" style="height: 100%"></bipoc>
         </div>
       </div>
     </div>
+    <my-footer class="work-footer"></my-footer>
   </div>
 </template>
+
 <script>
 import Bipoc from '@/components/Bipoc.vue'
+import MyFooter from '@/components/Footer'
+
 export default {
   components: {
-    Bipoc
+    Bipoc,
+    MyFooter
   }
 }
 </script>
@@ -36,7 +44,7 @@ export default {
 <style lang="scss">
 .data-table {
   .v-data-table__wrapper {
-    max-height: calc(100vh - 400px) !important;
+    max-height: calc(80vh - 240px) !important;
   }
 }
 </style>
