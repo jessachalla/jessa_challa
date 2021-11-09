@@ -8,7 +8,7 @@
     :loading="loading"
     :search="search"
     :items-per-page="100000"
-    class="elevation-1 data-table"
+    class="elevation-1 data-table noselect"
   >
     <!-- v-if="this.businesses.length" -->
     <template v-slot:top>
