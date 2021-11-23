@@ -6,9 +6,14 @@ import VueAxios from 'vue-axios'
 import VueRouter from 'vue-router'
 import App from './App.vue'
 import '@/scss/app.scss'
+import VueAnalytics from 'vue-analytics'
 
 Vue.config.productionTip = false
-Vue.use(vuetify, VueAxios, axios)
+Vue.use(vuetify, VueAxios, axios, VueAnalytics, {
+  id: 'G-M3EMFJMJMN',
+  VueRouter
+}
+)
 
 window.app = new Vue({
   vuetify,

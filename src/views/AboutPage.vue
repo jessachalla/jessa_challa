@@ -3,6 +3,7 @@
     <about></about>
   </div>
 </template>
+
 <script>
 import About from '@/components/About'
 
