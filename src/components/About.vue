@@ -8,9 +8,9 @@
           class="jessa"
         ></v-img>
         <p class="intro-p">
-          Hi there! I'm Jessa Challa (she/her). I’m a biracial Black woman,
-          lifelong Grand Rapids resident, and equity advocate. For work, I’m the
-          CEO and a Software Engineer at
+          Hi there! I'm Jessa Challa (she/her/hers). I’m a biracial Black woman,
+          lifelong Grand Rapids resident, and equity advocate. For work, I serve as
+          CEO and work as a Software Engineer at
           <a href="https://mallowfields.com/" target="_blank" class="flair"
             >Mallowfields</a
           >, a certified minority and women-owned software company in Grand
@@ -29,7 +29,7 @@
         </p>
         <p class="intro-p">
           So how did I become a Software Engineer? Well, my tech journey was
-          non-traditional: in 2019, I completed a Coding Bootcamp at
+          non-traditional: in 2019, I completed a Coding Bootcamp through
           <a href="https://www.grandcircus.co/" target="_blank" class="flair"
             >Grand Circus</a
           >. Now, I teach free coding classes through Grand Circus. I also

@@ -174,17 +174,18 @@ export default {
   }
 
   .work-title {
-    max-width: 5vw;
+    max-width: 10vw;
+    margin-right: 20px;
   }
 
   .work-info {
-    width: 50vw;
+    width: 45vw;
     margin-bottom: 0px !important;
   }
 
   @media only screen and (max-width: 800px) {
     .work-list {
-      justify-content: space-between;
+      justify-content: space-around;
       width: 90vw;
     }
   }

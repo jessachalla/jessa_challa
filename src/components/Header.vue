@@ -14,13 +14,6 @@
         <div class="ml-auto">
           <v-btn
             icon
-            href="https://www.facebook.com/jessarosechalla/"
-            target="_blank"
-          >
-            <v-icon size="24px" color="primary"> mdi-facebook </v-icon>
-          </v-btn>
-          <v-btn
-            icon
             href="https://www.linkedin.com/in/jessa-challa/"
             target="_blank"
           >
@@ -28,10 +21,24 @@
           </v-btn>
           <v-btn
             icon
+            href="https://www.facebook.com/jessarosechalla/"
+            target="_blank"
+          >
+            <v-icon size="24px" color="primary"> mdi-facebook </v-icon>
+          </v-btn>
+          <v-btn
+            icon
             href="https://www.instagram.com/jessa.challa/"
             target="_blank"
           >
             <v-icon size="24px" color="primary"> mdi-instagram </v-icon>
+          </v-btn>
+          <v-btn
+            icon
+            href="https://twitter.com/JessaChalla"
+            target="_blank"
+          >
+            <v-icon size="24px" color="primary"> mdi-twitter </v-icon>
           </v-btn>
         </div>
       </v-card-title>

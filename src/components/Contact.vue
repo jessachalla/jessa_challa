@@ -3,14 +3,7 @@
     <div class="contact-page">
       <div>
         <div class="contact-info">
-          <p class="contact-title">Call or Text</p>
-          <p>
-            <a class="contact-links">‪(616) 287-0177‬</a>
-          </p>
-        </div>
-
-        <div class="contact-info">
-          <p class="contact-title">Email</p>
+          <p class="contact-title">Contact Me</p>
           <p>
             <a class="contact-links" href="mailto:contact@jessachalla.com"
               >contact@jessachalla.com</a
@@ -23,6 +16,18 @@
           <p>
             <a class="contact-links" href="mailto: jessa@mallowfields.com"
               >jessa@mallowfields.com</a
+            >
+          </p>
+        </div>
+
+         <div class="contact-info">
+          <p class="contact-title">Casual Simulation</p>
+          <p class="contact-title">Director of Social Impact</p>
+          <p>
+            <a
+              class="contact-links"
+              href="mailto: jessa@casualsimulation.org"
+              >jessa@casualsimulation.org</a
             >
           </p>
         </div>

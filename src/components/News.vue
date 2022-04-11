@@ -160,10 +160,24 @@ export default {
   data: () => ({
     articles: [
       {
+        name: 'How to commemorate Black History Month 2022 in West Michigan',
+        publisher: 'WZZM 13',
+        date: '1/31/2022',
+        href: 'https://www.wzzm13.com/article/news/community/black-history-month-2022-in-west-michigan/69-0c5b8d31-b010-4224-bd6a-2127c77f6397',
+        target: '_blank'
+      },
+      {
         name: 'Software engineer paves way for inclusion in tech industry',
         publisher: 'MiBiz',
         date: '11/7/2021',
         href: 'https://mibiz.com/sections/economic-development/software-engineer-paves-way-for-inclusion-in-tech-industry',
+        target: '_blank'
+      },
+      {
+        name: 'Grand Rapids Chamber honors EPIC award winners',
+        publisher: 'Grand Rapids Business Journal',
+        date: '10/29/2021',
+        href: 'https://grbj.com/news/economic-development/grand-rapids-chamber-honors-epic-award-winners-2/',
         target: '_blank'
       },
       {
