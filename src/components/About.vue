@@ -1,7 +1,7 @@
 <template>
   <div>
     <v-container class="about">
-      <div class="about-ps mt-10">
+      <div class="about-ps mt-6">
         <v-img
           lazy-src="images/jessa_cutout.jpg"
           src="images/jessa_cutout.jpg"
