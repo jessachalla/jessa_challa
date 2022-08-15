@@ -8,13 +8,11 @@
           class="jessa"
         ></v-img>
         <p class="intro-p">
-          Hi there! I'm Jessa Challa (she/her/hers). I’m a biracial Black woman,
-          lifelong Grand Rapids resident, and equity advocate. For work, I serve as
-          CEO and work as a Software Engineer at
-          <a href="https://mallowfields.com/" target="_blank" class="flair"
-            >Mallowfields</a
-          >, a certified minority and women-owned software company in Grand
-          Rapids, MI.
+          Hi there! I'm Jessa Challa (she/her/hers). I’m a biracial Black woman, entrepreneur, technologist, and equity advocate. For work, I serve as
+          the Director of Software and IT Strategy at
+          <a href="https://nxssystems.com/" target="_blank" class="flair"
+            >Nexus Technology Services</a
+          >. Nexus is a leader in the technology industry in Grand Rapids, Michigan and a strong supporter of community-based efforts.
         </p>
         <p class="intro-p">
           I graduated from
@@ -28,7 +26,7 @@
           Engineering Department and Parking Department.
         </p>
         <p class="intro-p">
-          So how did I become a Software Engineer? Well, my tech journey was
+          My journey into the tech industry was
           non-traditional: in 2019, I completed a Coding Bootcamp through
           <a href="https://www.grandcircus.co/" target="_blank" class="flair"
             >Grand Circus</a
@@ -47,18 +45,18 @@
             >WMCAT’s Public Agency</a
           >. In that program, I learned how to utilize Equity-Centered Design to
           challenge and change systems and institutions of power to be more
-          equitable. Right now, I am in the
+          equitable. I also participated in the
           <a
             href="https://www.urbancorecollective.org/"
             target="_blank"
             class="flair"
             >Urban Core Collective's</a
           >
-          Transformational Leaders Program. I also work on personal projects
+          Transformational Leaders Program. Both of these programs helped prepare me to work on community, group, and personal projects
           that I share as community resources.
         </p>
         <p class="intro-p">
-          I am very thankful that you stopped by to learn a little more about
+          I believe that with the correct intention, tech can be an effective and versatile equity tool for all. If you are interested in connecting and collaborating, feel free to reach out. In any case, I am very thankful that you stopped by to learn a little more about
           me!
         </p>
         <p class="signature">

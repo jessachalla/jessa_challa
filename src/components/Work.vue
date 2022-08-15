@@ -11,13 +11,12 @@
       </h4>
       <div class="d-flex flex-column align-center">
         <div class="work-list">
-          <h4 class="work-title">Mallowfields</h4>
+          <h4 class="work-title">Nexus Technology Services</h4>
           <p class="work-info">
-            I'm the CEO and a Software Engineer at Mallowfields. I have an
-            incredible team that creates enterprise software. Check out more of
+            I'm the Director of Software and IT strategy at Nexus Technology Services. Our team has experts in AV, Website and Hosting, Infrastructure, Managed Services, and more. Check out more of
             what we do here:
-            <a href="https://mallowfields.com" target="_blank"
-              >Mallowfields Website</a
+            <a href="https://nxssystems.com/" target="_blank"
+              >Nexus Website</a
             >.
           </p>
         </div>
@@ -26,9 +25,9 @@
         <div class="work-list">
           <h4 class="work-title">Consulting</h4>
           <p class="work-info">
-            After going through WMCAT's Public Agency's program Community
-            Catalysts, I have worked as a consultant on community projects. I
-            specialize in equity-centered design thinking and have my own
+            I've participated in multiple leadership programs including WMCAT's Public Agency's Community
+            Catalysts, UCC's Transformational Leadership Program, and the GR Chamber's Emerging Leaders. Because of this experience, I have worked as a consultant on a variety of community projects. I
+            specialize in equity-centered design thinking, technology, and have my own
             unique, gentle perspective.
           </p>
         </div>

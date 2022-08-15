@@ -55,6 +55,14 @@ export default {
     items: [
       {
         color: 'primary',
+        src: 'images/theandproject.png',
+        title: 'The And Project',
+        href: 'https://www.jessachalla.com/bipoc',
+        target: '',
+        artist: `Website created by Jessa Challa. A group project curated by Jessa's TLP team.`
+      },
+      {
+        color: 'primary',
         src: 'images/map_project.jpg',
         title: 'BIPOC Businesses in GR Map',
         href: 'https://www.jessachalla.com/bipoc',

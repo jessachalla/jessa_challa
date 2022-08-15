@@ -15,7 +15,7 @@
           <p class="contact-title">Work Email</p>
           <p>
             <a class="contact-links" href="mailto: jessa@mallowfields.com"
-              >jessa@mallowfields.com</a
+              >jchalla@nxssystems.com</a
             >
           </p>
         </div>

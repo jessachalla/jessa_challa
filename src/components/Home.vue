@@ -4,7 +4,7 @@
     <span>I'm so glad you're here!</span>
     <div @click="splash" class="pool d-flex justify-center align-center">
       <div class="affirmation">
-        <p v-if="!affirmation">Take a moment to splash around...</p>
+        <div v-if="!affirmation"><p>Take a moment to splash around...</p><p style="font-size: 22px;">(Click the water to recieve an affirmation)</p></div>
         <p>{{ affirmation }}</p>
       </div>
     </div>
