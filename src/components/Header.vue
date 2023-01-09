@@ -19,7 +19,7 @@
           >
             <v-icon size="24px" color="primary"> mdi-linkedin </v-icon>
           </v-btn>
-          <v-btn
+          <!-- <v-btn
             icon
             href="https://www.facebook.com/jessarosechalla/"
             target="_blank"
@@ -32,7 +32,7 @@
             target="_blank"
           >
             <v-icon size="24px" color="primary"> mdi-instagram </v-icon>
-          </v-btn>
+          </v-btn> -->
           <v-btn
             icon
             href="https://twitter.com/JessaChalla"

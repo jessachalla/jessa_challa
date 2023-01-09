@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <div class="content-container safari_only">
+    <div class="content-container safari_only noselect">
       <my-header></my-header>
       <div class="content-container">
         <router-view></router-view>

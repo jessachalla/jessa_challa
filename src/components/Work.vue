@@ -10,7 +10,7 @@
         can help:
       </h4>
       <div class="d-flex flex-column align-center">
-        <div class="work-list">
+        <!-- <div class="work-list">
           <h4 class="work-title">Nexus Technology Services</h4>
           <p class="work-info">
             I'm the Director of Software and IT strategy at Nexus Technology Services. Our team has experts in AV, Website and Hosting, Infrastructure, Managed Services, and more. Check out more of
@@ -19,11 +19,11 @@
               >Nexus Website</a
             >.
           </p>
-        </div>
+        </div> -->
         <v-divider></v-divider>
 
         <div class="work-list">
-          <h4 class="work-title">Consulting</h4>
+          <h4 class="work-title">Community Project Consulting</h4>
           <p class="work-info">
             I've participated in multiple leadership programs including WMCAT's Public Agency's Community
             Catalysts, UCC's Transformational Leadership Program, and the GR Chamber's Emerging Leaders. Because of this experience, I have worked as a consultant on a variety of community projects. I
@@ -34,14 +34,9 @@
         <v-divider></v-divider>
 
         <div class="work-list">
-          <h4 class="work-title">Teaching</h4>
+          <h4 class="work-title">Tech Consulting and Volunteering</h4>
           <p class="work-info">
-            You can catch me teaching Grand Circus's Intro to Code workshop. I'm
-            not the teacher EVERY Tuesday, but they happen every Tuesday. Fill
-            free to sign up and write your first line of code:
-            <a href="https://www.grandcircus.co/workshops/" target="_blank"
-              >Grand Circus Workshops</a
-            >.
+            I am open to working on website development. I've worked with Wordpress, Webflow, and Squarespace. This website you're at now, I built from scratch using Vue.js.
           </p>
         </div>
         <v-divider></v-divider>
@@ -173,11 +168,12 @@ export default {
   }
 
   .work-title {
-    max-width: 10vw;
+    width: 12vw;
     margin-right: 20px;
   }
 
   .work-info {
+    // padding-left: 40px;
     width: 45vw;
     margin-bottom: 0px !important;
   }

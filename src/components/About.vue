@@ -2,18 +2,26 @@
   <div>
     <v-container class="about">
       <div class="about-ps mt-6">
-        <v-img
-          lazy-src="images/jessa_cutout.jpg"
-          src="images/jessa_cutout.jpg"
-          class="jessa"
-        ></v-img>
+        <div class="headshot-holder">
+          <v-img
+            lazy-src="images/jessa_tech.png"
+            src="images/jessa_tech.png"
+            class="jessa"
+          ></v-img>
+        </div>
         <p class="intro-p">
-          Hi there! I'm Jessa Challa (she/her/hers). I’m a biracial Black woman, entrepreneur, technologist, and equity advocate. For work, I serve as
+          Hi there! I'm Jessa Challa (she/her/hers). I’m a biracial Black woman,
+          entrepreneur, technologist, and equity advocate. Here's a little about
+          my background:
+        </p>
+        <!-- <p>For work, I serve as
           the Director of Software and IT Strategy at
           <a href="https://nxssystems.com/" target="_blank" class="flair"
             >Nexus Technology Services</a
-          >. Nexus is a leader in the technology industry in Grand Rapids, Michigan and a strong supporter of community-based efforts.
-        </p>
+          >. Nexus is a leader in the technology industry in Grand Rapids,
+          Michigan and a strong supporter of community-based efforts.
+        </p> -->
+
         <p class="intro-p">
           I graduated from
           <a href="https://www.aquinas.edu/" target="_blank" class="flair"
@@ -26,14 +34,14 @@
           Engineering Department and Parking Department.
         </p>
         <p class="intro-p">
-          My journey into the tech industry was
-          non-traditional: in 2019, I completed a Coding Bootcamp through
+          My journey into the tech industry was non-traditional: in 2019, I
+          completed a Coding Bootcamp through
           <a href="https://www.grandcircus.co/" target="_blank" class="flair"
             >Grand Circus</a
-          >. Now, I teach free coding classes through Grand Circus. I also
-          mentor and connect womxn and BIPOC individuals to opportunities in the
-          tech sector. I have the ultimate goal of making the tech sector a more
-          inviting and inclusive place for all.
+          >. Since then, I have done both web and software development. I also
+          actively give back through teaching, mentoring, and connecting people.
+          My focus is on making the tech industry a more inviting and inclusive
+          place for womxn and BIPOC individuals.
         </p>
         <p class="intro-p">
           And what about community work? Well, that’s where my heart is at! I
@@ -52,12 +60,15 @@
             class="flair"
             >Urban Core Collective's</a
           >
-          Transformational Leaders Program. Both of these programs helped prepare me to work on community, group, and personal projects
-          that I share as community resources.
+          Transformational Leaders Program. Both of these programs helped
+          prepare me to work on community, group, and personal projects that I
+          share as community resources.
         </p>
         <p class="intro-p">
-          I believe that with the correct intention, tech can be an effective and versatile equity tool for all. If you are interested in connecting and collaborating, feel free to reach out. In any case, I am very thankful that you stopped by to learn a little more about
-          me!
+          I believe that with the correct intention, tech can be an effective
+          and versatile equity tool for all. If you are interested in connecting
+          and collaborating, feel free to reach out. In any case, I am very
+          thankful that you stopped by to learn a little more about me!
         </p>
         <p class="signature">
           <span style="color: #92140c">&hearts;</span><span>Jessa</span>
