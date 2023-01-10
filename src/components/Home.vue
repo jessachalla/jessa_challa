@@ -2,11 +2,13 @@
   <div class="content-body d-flex flex-column align-center mt-4 noselect">
     <h1>Welcome!</h1>
     <span>I'm so glad you're here!</span>
-    <div @click="splash" class="pool d-flex justify-center align-center">
+    <div class="pool d-flex justify-center align-center">
+      <v-img src="images\pool_water.jpg" class="pool d-flex justify-center align-center" @click="splash">
       <div class="affirmation">
         <div v-if="!affirmation"><p>Take a moment to splash around...</p><p style="font-size: 22px;">(Click the water to recieve an affirmation)</p></div>
         <p>{{ affirmation }}</p>
       </div>
+    </v-img>
     </div>
     <my-footer class="home-footer"></my-footer>
   </div>
