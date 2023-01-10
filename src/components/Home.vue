@@ -1,5 +1,5 @@
 <template>
-  <div class="content-body d-flex flex-column align-center mt-4">
+  <div class="content-body d-flex flex-column align-center mt-4 noselect">
     <h1>Welcome!</h1>
     <span>I'm so glad you're here!</span>
     <div @click="splash" class="pool d-flex justify-center align-center">
