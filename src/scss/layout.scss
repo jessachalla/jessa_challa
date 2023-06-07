@@ -28,8 +28,9 @@
 // }
 
 .map-container {
-  height: 80vh;
+  height: 79vh;
   width: 100%;
+  margin: 0 auto;
 }
 
 .map {
@@ -98,6 +99,10 @@
 @media (max-width:801px)  {
   .directory-section {
     height: 85vh;
+  }
+
+  .map-container {
+    height: 87vh;
   }
   
 }
